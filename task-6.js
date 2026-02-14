@@ -4,5 +4,5 @@ const students = [
 ];
 for (let i = 0; i < students.length; i++) {
   let student = students[i];
-  console.log(student.name, student.marks);
+  console.log(student.name, "Scored " + student.marks);
 }
